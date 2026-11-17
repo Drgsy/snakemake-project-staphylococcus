@@ -1,0 +1,16 @@
+# Snakemake: metadane, cache i środowiska conda tworzone przez --sdm conda (~2 GB)
+.snakemake/
+
+# Wyniki i logi potoku: można je w całości odtworzyć poleceniem snakemake
+output/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# System / edytory
+.DS_Store
+.vscode/
+.idea/
+*.swp
